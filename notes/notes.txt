@@ -1,0 +1,43 @@
+…or create a new repository on the command line
+echo "# learn-islam" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mdsaleem1804/learn-islam.git
+git push -u origin master
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/mdsaleem1804/learn-islam.git
+git push -u origin master
+
+
+
+D:\Learning\react\learn-islam>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Learning\react\learn-islam>git add .
+
+D:\Learning\react\learn-islam>git commit -m "git notes added"
+[master 5b6c807] git notes added
+ 1 file changed, 11 insertions(+)
+ create mode 100644 notes.txt
+
+D:\Learning\react\learn-islam>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 459 bytes | 153.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mdsaleem1804/learn-islam.git
+   edfa056..5b6c807  master -> master
+
+D:\Learning\react\learn-islam>
